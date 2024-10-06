@@ -1,0 +1,19 @@
+.main{
+    height: 200px;
+    width: 500px;
+    background-color: antiquewhite;
+     display:flex;
+     flex-direction:row;
+    flex-wrap:wrap;
+    
+    
+}
+.b{
+    height: 50px;
+    width: 100px;
+}
+#a{
+    /* align-self:self-end; */
+    /* flex-basis:110px; */
+   
+}

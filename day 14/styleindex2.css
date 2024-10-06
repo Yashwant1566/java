@@ -1,0 +1,39 @@
+#com{
+    color:orange;
+}
+#pet{
+    color:darkgoldenrod;
+}
+#img{
+    height: 150px;
+    width: 300px;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-top: 10px;
+   
+    
+}
+.card{
+    height: 440px;
+    width: 350px;
+    background-color: white;
+    border:3px solid black;
+    border-radius: 10px;
+    margin-left: 50px;
+   
+}
+.para{
+    margin-left:10px;
+}
+#cards{
+    height: 440px;
+    width: 350px;
+    background-color: white;
+    border:3px solid black;
+    border-radius: 10px;
+    margin-left: 50px;
+    position:absolute;
+    top: 161px;
+    left: 600px;
+   
+}

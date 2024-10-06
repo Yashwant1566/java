@@ -1,0 +1,20 @@
+.container{
+    height: 500px;
+    width: 500px;
+    border:2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    grid-template-rows:50px  50px 50px  ;
+    /* grid-template-columns: repeat(4,1fr); */
+    
+}
+.body{
+    height: 20px;
+    width: 10px;
+    background-color: pink;
+    margin: 5px;
+}
+/* #a{
+    flex-grow:1 ;
+} */

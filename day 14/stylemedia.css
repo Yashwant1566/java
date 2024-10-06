@@ -1,0 +1,14 @@
+div{
+    color: red;
+    background-color: black;
+}
+@media(min-width:200px) and (max-width:800px){
+    #a{
+        background-color: rgb(205, 205, 135);
+    }
+}
+@media(orientation:landscape){
+   #a{
+        background-color:pink;
+   }
+}

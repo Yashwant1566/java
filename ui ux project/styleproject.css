@@ -1,0 +1,144 @@
+h1{
+    color:#C7253E;
+    text-align: center;
+    font-style:italic;
+}
+h2{
+    color:#FABC3F;
+    text-align: center;
+}
+button{
+    color:white;
+    background-color: #821131;
+    
+
+}
+li{
+    color:#821131;
+    font-weight:1000;
+    margin: 10px;
+    font-size: 30px;
+}
+span{
+    /* text-align: center; */
+}
+button:hover{
+    background-color: #e50645;
+    box-shadow: 1px 2px 115px;
+}
+.features{
+    height: 200px;
+    width: 1200px;
+    border: 0px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin: 20px;
+   
+}
+.f{
+    /* height: 50px;
+    width: 150px; */
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 7px;
+    text-align: center;
+    padding: 15px;	
+    font-weight: 1000;
+
+}
+.img{
+    border-radius: 10px;
+    margin: 20px;
+}
+.img1{
+    border-radius: 20px;
+    margin: 0px;
+    padding: 5px;
+}
+div1{
+    margin: 10px;
+    font-weight:900;
+}
+.dt{
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    color:darkolivegreen;
+}
+.gr1{
+    font-size: 30px;
+    color:peru;
+}
+.gr{
+    position: relative;
+    left: 40px;
+    bottom: 10px;
+    font-size: 20px;
+    color: purple;
+}
+.type{
+    position: relative;
+    left: 40px;
+    bottom: 10px;
+    font-size: 20px;
+    color: purple;
+    
+}
+.mode{
+    position: relative;
+    left: 40px;
+    bottom: 10px;
+    font-size: 20px;
+    color: purple;
+}
+.book{
+    
+    animation: book 1s ease-in-out infinite alternate;
+    position: relative;
+    left: 400px;
+   
+}
+.f:hover{
+   border: 2px double black;
+   background-color: azure;
+   box-shadow: 1px 2px 15px;
+}
+.img1:hover{
+    box-shadow: 1px 2px 15px;
+    border-radius: 30px;
+
+}
+ @keyframes book{
+    from{
+        width: 100px;
+        background-color: #821131;
+        border-radius: 0px;
+    }
+    to{
+        width: 200px;
+        background-color: purple;
+        border-radius: 10px;
+    }
+ }
+ .tk{
+    text-align: center;
+    animation: tk 1.5s ease-in-out infinite alternate;
+    
+ }
+ @keyframes tk{
+    from{
+        width: 550px;
+       
+    }
+    to{
+        width: 700px;
+      
+    }
+}
+
+.facilities{
+    font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}

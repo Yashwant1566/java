@@ -1,0 +1,22 @@
+h3{
+    color: rgb(252, 140, 3);
+}
+#signup{
+   color: purple;
+}
+p a{
+    color: purple;
+}
+h3{
+    text-decoration: underline;
+}
+input[type="text"]{
+    color:green;
+}
+input[type="password"]{
+    color:red;
+}
+button:hover{
+    color:red;
+    background-color:burlywood
+}

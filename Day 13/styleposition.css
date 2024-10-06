@@ -1,0 +1,22 @@
+#a{
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  margin: 10px;
+  display:inline-block;
+  position: relative;
+  position: static;
+  top:100px;
+  left:100px
+}
+#b{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    margin: 10px;
+    display:inline-block;
+    position: relative;
+    top:100px;
+    left:100px
+}
+  
